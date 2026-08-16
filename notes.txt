@@ -1,0 +1,20 @@
+*What is react js?
+React js is a Js library used to create UI, library basically helps to implement a single feature whereas in framework we get everything under a roof
+
+*LIBRARY -> React Js
+*FRAMEWORK -> Next Js, Angular
+
+*React have component based architecture, it helps us to create a single page application
+
+*Real DOM vs Virtual DOM
+the Real DOM represents the actual UI structure rendered on screen by the browser, while the Virtual DOM is a lightweight, in-memory JavaScript copy used by libraries like React to optimize performance.
+
+Instead of rewriting the actual browser page layout every time a state change occurs, React uses a step-by-step optimization cycle:
+
+^ State Update: A user triggers an action (e.g., clicking a button) that updates state.
+^ New Virtual Tree: React generates a brand new Virtual DOM tree representing the updated look of the interface.
+^ Diffing: React compares this new Virtual DOM with a snapshot of the old Virtual DOM to pinpoint exactly what changed.
+^ Reconciliation: A specialized synchronizing tool called ReactDOM applies only the necessary changes to the Real DOM
+
+Create react application
+ npm create vite@latest
