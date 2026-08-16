@@ -1,0 +1,23 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+.heading{
+  background-color: brown;
+}
+.card{
+  background-color: cadetblue;
+  padding:20px;
+  border: 10px solid white;
+  margin:10px;
+  text-align: center;
+}
+.navbar{
+  width:50%;
+  color:crimson;
+  background-color: bisque;
+  border-radius: 20px;
+  display:flex;
+  
+
+}

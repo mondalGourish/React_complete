@@ -18,3 +18,5 @@ Instead of rewriting the actual browser page layout every time a state change oc
 
 Create react application
  npm create vite@latest
+
+*In REACT we dont write all the code in main.jsx, we create components so that se can reuse them
