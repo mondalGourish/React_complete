@@ -20,3 +20,6 @@ Create react application
  npm create vite@latest
 
 *In REACT we dont write all the code in main.jsx, we create components so that se can reuse them
+
+How to use tailwind
+tailwind css website -> using vite -> follow the instructions -> install -> make changes in the vite.config.js -> copy the import of tailwind css and paste in index.css
