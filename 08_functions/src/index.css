@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  color:white;
+}
+button{
+  height: 100px;
+  width:200px;
+  padding: 10px;
+  gap: 10px;
+  border: 2px solid red;
+  border-radius: 3rem;
+}
+input{
+  height: 5vh;
+  width:50vh;
+}
+.box{
+  height:100px;
+  width: 100px;
+  background: red;
+}
