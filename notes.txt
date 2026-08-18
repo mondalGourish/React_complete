@@ -26,3 +26,18 @@ tailwind css website -> using vite -> follow the instructions -> install -> make
 
 for icons we can use 
 lucid-react or remix-icon
+
+*Hooks in react(magical function which can perform some task)
+useState    useEffect   useRef  useMemo useCallback useContext  useReducer
+
+useState -> manages state(manages any change in state)(basic state management)
+
+useEffect -> also make changes in the website but without disturbing the main function going on, it silently does it works(used in api call, dom manipulation, event listener)
+
+useRef -> it helps to select the dom elements
+
+useContext -> helps to manage context api ,basically some is present globally and helps it to access them(global state management)
+
+useReducer -> helps to handle complex logic (complex global state management)
+
+useMemo,useCallback -> helps in optimization,memoization (helps to reduce re-rendering by optimization)
