@@ -23,3 +23,6 @@ Create react application
 
 How to use tailwind
 tailwind css website -> using vite -> follow the instructions -> install -> make changes in the vite.config.js -> copy the import of tailwind css and paste in index.css
+
+for icons we can use 
+lucid-react or remix-icon
