@@ -50,3 +50,12 @@ session storage store the data upto the time user is active on the browser
 
 to clear the storage ->
 localStorage.clear(), sessionStorage.clear()
+
+//API CALLING
+The connection established between frontend and backend is using API, 
+
+Frontend ->(req) ->backend ->(database) ->returns data to backend ->(res) ->frontend
+
+now there this req,res api is done using 2 types of fetch and axios
+
+fetch can be used normally, but to use axios we have to install using -> npm i axios
