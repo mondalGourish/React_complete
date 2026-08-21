@@ -41,3 +41,12 @@ useContext -> helps to manage context api ,basically some is present globally an
 useReducer -> helps to handle complex logic (complex global state management)
 
 useMemo,useCallback -> helps in optimization,memoization (helps to reduce re-rendering by optimization)
+
+what is local storage?
+it is the memory of the browser, the data is stored in local storage is intact even after the browser is closed
+
+what is session storage?
+session storage store the data upto the time user is active on the browser
+
+to clear the storage ->
+localStorage.clear(), sessionStorage.clear()
