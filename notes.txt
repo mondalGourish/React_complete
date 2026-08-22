@@ -59,3 +59,13 @@ Frontend ->(req) ->backend ->(database) ->returns data to backend ->(res) ->fron
 now there this req,res api is done using 2 types of fetch and axios
 
 fetch can be used normally, but to use axios we have to install using -> npm i axios
+
+*REACT does't provide in house routing for that we have to use react router dom
+install react router dom, in main.jsx import it and warp the <App/> inside it
+
+the inside app.jsx
+<Routes>
+<Route path="" element={}/>
+</Routes>
+
+advanced routing concepts(basic setup -> nested routes -> dynamic routes -> usenavigate ->404page)
