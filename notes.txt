@@ -79,3 +79,5 @@ create a
 <Route>
 <Route/>
 </Route>
+
+then comes dynamic routing where in a single page we can move to different parts using
