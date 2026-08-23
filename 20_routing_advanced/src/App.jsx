@@ -9,6 +9,8 @@ import NotFound from "./pages/NotFound";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Kid from "./pages/kid";
+import Courses from "./pages/Courses";
+import CourseDetails from "./pages/CourseDetails";
 
 const App = () => {
   return (
@@ -17,6 +19,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/courses" element={<Courses />} />
+        //dynamic routing
+        <Route path="/courses/:id" element={<CourseDetails/>}/>
+
 
 
         //nested routing
@@ -26,7 +32,7 @@ const App = () => {
           <Route path="kid" element={<Kid />} />
         </Route>
 
-        
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
