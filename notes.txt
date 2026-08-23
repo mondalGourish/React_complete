@@ -69,3 +69,13 @@ the inside app.jsx
 </Routes>
 
 advanced routing concepts(basic setup -> nested routes -> dynamic routes -> usenavigate ->404page)
+
+How to create a navbar?
+create a react app -> install react router dom, then setup in main.jsx, import routes and route in app.jsx, define route there, make folder pages and components in src, under pages there is home,about,contact.jsx and under components there is navbar.jsx, then write the react functional components in them import navbar in app.jsx and also give custom styling
+
+
+how to create nested routing
+create a 
+<Route>
+<Route/>
+</Route>
