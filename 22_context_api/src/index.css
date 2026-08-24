@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  color:white;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightseagreen;
+  align-items: center;
+  padding: 14px 20px
+}
+.nav2{
+  display: flex;
+  gap: 20px;
+  font-size: large;
+}

@@ -81,3 +81,11 @@ create a
 </Route>
 
 then comes dynamic routing where in a single page we can move to different parts using
+
+
+at first we are passing data using props drilling but it is a very hectic process, so the concept of centralized data came to the picture.
+what happens here?
+the data is available centralized here whichever component needs the data it will access it and use it, this is done with the help of context api. It basically helps in State Management in mid sized applications
+
+what are things we need for context api?
+context creation -> provider -> useContext
